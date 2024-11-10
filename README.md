@@ -75,13 +75,13 @@ else if(window.location.href.indexOf("tech") != -1){
 techBtn1.addEventListener('click', changeImg1);
 function changeImg1(){
     if (sWidth >= 1280){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-portrait.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-launch-vehicle-portrait.jpg)";
     }
     else if (sWidth >= 768){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-launch-vehicle-landscape.jpg)";
     }
     else if (sWidth >= 375){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-launch-vehicle-landscape.jpg)";
     }
 }
 ```
